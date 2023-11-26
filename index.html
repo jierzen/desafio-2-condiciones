@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="./assets/js/index.js"></script>
+    <title>Desafio 2 Modulo 3 JavaScript</title>
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Desafio 2 Modulo 3 Javascript</h1>
+    </header>
+    <h4 class="text-center">1. Al hacer click en el perrito, se le hara un borde rojo. Click nuevamente para quitar el borde</h4>
+    <div class="container mt-4">
+        <div class="parte_1 text-center">
+            <img src="/assets/img/perrito.png" id="imgPerrito" class="img-fluid" style="max-height: 250px; cursor:pointer;" onClick="cambiarBordeColor()"/>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <h4 class="text-center">2. Ingrese el numero de Stickers que desea. Luego presione el boton y recibira el mensaje</h4>
+        <div class="parte_2 mt-4">
+            <!-- Stickers Section -->
+            <div class="row">
+                <div class="col">
+                    <img src="/assets/img/sticker_1.png" class="img-fluid"/>
+                    <input id="inputSticker1" type="text" class="form-control"/>
+                </div>
+                <div class="col">
+                    <img src="/assets/img/sticker_2.png" class="img-fluid"/>
+                    <input id="inputSticker2" type="text" class="form-control"/>
+                </div>
+                <div class="col">
+                    <img src="/assets/img/sticker_3.png" class="img-fluid"/>
+                    <input id="inputSticker3" type="text" class="form-control"/>
+                </div>
+            </div>
+            <div class="mt-3">
+                <p id="mensaje"></p>
+            </div>
+            <button class="btn btn-primary mt-3" onClick="procesarTickets()">Verificar</button>
+        </div>
+
+
+    </div>
+
+    <footer class="bg-primary text-white text-center py-3 mt-4">
+        <p>Desarrollado por Jorge Espinoza Ramirez</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
