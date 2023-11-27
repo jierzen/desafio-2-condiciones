@@ -21,4 +21,4 @@ Este proyecto es un desafío de JavaScript que consiste en dos partes principale
 - Bootstrap (para diseño responsivo y moderno)
 
 ## Autor 👤
-Desarrollado por [Jorge Espinoza]
+Desarrollado por Jorge Espinoza Ramírez
