@@ -39,3 +39,19 @@ function procesarTickets() {
     }
 }
 
+function verificarContraseña() {
+    let selector1 = document.getElementById("selector1").value;
+    let selector2 = document.getElementById("selector2").value;
+    let selector3 = document.getElementById("selector3").value;
+
+    let contraseña = selector1 + selector2 + selector3;
+    let resultado = document.getElementById("resultadoContraseña");
+
+    if (contraseña === "911") {
+        resultado.innerText = "Password 1 correcto";
+    } else if (contraseña === "714") {
+        resultado.innerText = "Password 2 correcto";
+    } else {
+        resultado.innerText = "Password incorrecto";
+    }
+}

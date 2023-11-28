@@ -14,7 +14,7 @@
     <h4 class="text-center">1. Al hacer click en el perrito, se le hara un borde rojo. Click nuevamente para quitar el borde</h4>
     <div class="container mt-4">
         <div class="parte_1 text-center">
-            <img src="/assets/img/perrito.png" id="imgPerrito" class="img-fluid" style="max-height: 250px; cursor:pointer;" onClick="cambiarBordeColor()"/>
+            <img src="./assets/img/perrito.png" id="imgPerrito" class="img-fluid" style="max-height: 250px; cursor:pointer;" onClick="cambiarBordeColor()"/>
         </div>
         <br/>
         <br/>
@@ -24,15 +24,15 @@
             <!-- Stickers Section -->
             <div class="row">
                 <div class="col">
-                    <img src="/assets/img/sticker_1.png" class="img-fluid"/>
+                    <img src="./assets/img/sticker_1.png" class="img-fluid"/>
                     <input id="inputSticker1" type="text" class="form-control"/>
                 </div>
                 <div class="col">
-                    <img src="/assets/img/sticker_2.png" class="img-fluid"/>
+                    <img src="./assets/img/sticker_2.png" class="img-fluid"/>
                     <input id="inputSticker2" type="text" class="form-control"/>
                 </div>
                 <div class="col">
-                    <img src="/assets/img/sticker_3.png" class="img-fluid"/>
+                    <img src="./assets/img/sticker_3.png" class="img-fluid"/>
                     <input id="inputSticker3" type="text" class="form-control"/>
                 </div>
             </div>
@@ -41,8 +41,49 @@
             </div>
             <button class="btn btn-primary mt-3" onClick="procesarTickets()">Verificar</button>
         </div>
+        <br/>
+        <br/>
+        <div class="parte_3 mt-4 text-center">
+            <h4 class="text-center">3. Ingrese la contraseña utilizando los selectores</h4>
+            <div class="d-flex justify-content-center">
+                <select id="selector1" class="form-control form-control-sm mx-1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="selector2" class="form-control form-control-sm mx-1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="selector3" class="form-control form-control-sm mx-1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
 
-
+            </div>
+            <button class="btn btn-primary mt-3" onclick="verificarContraseña()">Ingresar</button>
+            <p id="resultadoContraseña"></p>
+        </div>
     </div>
 
     <footer class="bg-primary text-white text-center py-3 mt-4">
