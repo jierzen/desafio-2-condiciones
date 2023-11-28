@@ -13,6 +13,10 @@ Este proyecto es un desafío de JavaScript que consiste en dos partes principale
 - ✅ **Selección de Stickers**: El usuario puede elegir hasta 10 stickers de 3 tipos diferentes.
   - ➕ **Visualización de la Cantidad de Stickers Seleccionados**: Se muestra un párrafo indicando la cantidad de stickers seleccionados, por ejemplo, "Llevas 5 stickers".
   - ⚠️ **Mensaje de Exceso de Stickers**: Si la cantidad seleccionada es mayor a 10, se muestra un mensaje "Llevas demasiados stickers".
+ 
+#### Parte 3: Verificación de Contraseña 🔑
+- 🆕 **Selección de Contraseña**: Tres selectores para formar una contraseña numérica.
+  - **Verificación de Contraseña**: Al ingresar "911", muestra "Password 1 correcto"; con "714", "Password 2 correcto"; cualquier otra combinación muestra "Password incorrecto".
 
 ## Tecnologías Utilizadas 💻
 - HTML
